@@ -1,0 +1,31 @@
+.auth-box {
+	margin-top: 15%;
+	/*display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;*/
+}
+
+button.yellow {
+	margin-right: 10px !important;
+}
+
+input.yellow-input {
+	border-bottom: 1px solid #fff !important;
+	box-shadow: 0 1px 0 0 #fff !important;
+	padding-left: 10px !important;
+	color: #ccc !important;
+}
+
+input.yellow-input + label {
+	color: #fff !important;
+}
+
+input.yellow-input:focus + label {
+	color: #ffeb3b !important;
+}
+
+input.yellow-input:focus {
+	border-bottom: 1px solid #ffeb3b !important;
+	box-shadow: 0 1px 0 0 #ffeb3b !important;
+}

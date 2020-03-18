@@ -1,34 +1,37 @@
 {
-  "name": "client",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "mern_shortlinks",
+	"version": "1.0.0",
+	"description": "mern stack service short links",
+	"main": "server.js",
+	"scripts": {
+		"start": "cross-env MODE_ENV=production node server.js",
+		"server": "nodemon server.js",
+		"client": "npm run start --prefix client",
+		"client:install": "npm install --prefix client",
+		"client:build": "npm run build --prefix client",
+		"dev": "cross-env MODE_ENV=development concurrently \"npm run server\" \"npm run client\"",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"mongo",
+		"express",
+		"react",
+		"nodejs"
+	],
+	"author": "red_partizan <komplekt17@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"config": "^3.3.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-validator": "^6.4.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.9.4",
+		"shortid": "^2.2.15"
+	},
+	"devDependencies": {
+		"concurrently": "^5.1.0",
+		"nodemon": "^2.0.2"
+	}
 }
