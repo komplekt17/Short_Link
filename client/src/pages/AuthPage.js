@@ -76,7 +76,7 @@ export const AuthPage = () => {
 								<div className="input-field">
 									<input
 										id="password"
-										type="text"
+										type="password"
 										name="password"
 										className="yellow-input"
 										placeholder="Password"
