@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import { RoutingApp } from './routes/indes';
+import { RoutingApp } from './routes';
 import { useAuth } from './custom-hooks';
 import { AuthContext } from './сontext';
 import { Navbar, Loader } from './components';
