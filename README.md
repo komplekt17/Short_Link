@@ -4,6 +4,8 @@
 - generating short link by full link
 - saving/removing short/full link in DB
 
+![](short-link.gif)
+
 ### `How to start project`
 
 In the project directory, you can run:
