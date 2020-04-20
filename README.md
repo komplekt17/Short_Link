@@ -4,7 +4,7 @@
 - generating short link by full link
 - saving/removing short/full link in DB
 
-![](short-link.gif)
+![](https://github.com/komplekt17/Edu_Projects/blob/master/gifs/short-link.gif)
 
 ### `How to start project`
 
