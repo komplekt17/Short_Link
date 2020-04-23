@@ -1,8 +1,8 @@
 ## Short Link Service
 
-- user registration/authorization
-- generating short link by full link
-- saving/removing short/full link in DB
+- user registration/authorization;
+- generating short link by full link;
+- saving/removing short/full link in DB;
 
 ![](https://github.com/komplekt17/Test-Tasks/blob/master/gifs/short-link.gif)
 
